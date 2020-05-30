@@ -2,16 +2,18 @@
 body {
     font-family:'Lato', sans-serif;
     font-size: 16px;
-    text-align: center;
     margin: 0;
     margin-top: 50px;
+    background: url("https://images.pexels.com/photos/4472063/pexels-photo-4472063.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-size: cover;
+    color: grey;
+
 
 }
 header {
     font-family: 'Bebas Neue';
     font-size: 30px;
     padding: 0;
-
 }
 
 h4 {
@@ -20,3 +22,8 @@ h4 {
     font-size: 14px;
     margin: 0;
 }
+
+ .container{
+   display: block;
+   text-align: center;
+ }
