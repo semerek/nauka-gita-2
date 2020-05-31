@@ -1,3 +1,19 @@
-html-validate FILENAME..
-autoprefixer [OPTION...] FILES
+
+
+html-validate index.html
+Create .htmlvalidate.json:
+
+{
+  "extends": [
+    "htmlvalidate:recommended"
+  ],
+ 
+  "rules": {
+    "close-order": "error"
+    "void": ["warn", {"style": "omit"}]
+  }
+}
+
+autoprefixer-cli -o main.prefixed.css main.css
+
 
