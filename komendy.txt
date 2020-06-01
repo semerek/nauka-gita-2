@@ -1,19 +1,7 @@
 
 
 html-validate index.html
-Create .htmlvalidate.json:
 
-{
-  "extends": [
-    "htmlvalidate:recommended"
-  ],
- 
-  "rules": {
-    "close-order": "error"
-    "void": ["warn", {"style": "omit"}]
-  }
-}
 
-autoprefixer-cli -o style.css 
-
+autoprefixer-cli -o style.prefixed.css style.css 
 
